@@ -1,0 +1,9 @@
+<Sounds>
+	<Sound name="Menu" filename="sound/music/candy_crush_saga_loop_1.mp3"/>
+	<Sound name="World1" filename="sound/music/candy_crush_loop5.mp3"/>
+	<Sound name="Victory" filename="sound/music/candy_crush_outro1.mp3"/>
+	<Sound name="Defeat" filename="sound/music/candy_crush_intro2.mp3"/>
+	<Sound name="SoundTrack2" filename="sound/music/candy_crush_soundtrack2.mp3"/>
+	<Sound name="SoundTrack3" filename="sound/music/candy_crush_soundtrack3.mp3"/>
+	<Sound name="SoundTrack4" filename="sound/music/candy_crush_soundtrack4.mp3"/>
+</Sounds>

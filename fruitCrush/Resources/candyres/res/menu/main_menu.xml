@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:26bb56169b03e3b2006fae6b65ac4175$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="main_menu.png" width="1024" height="1024">
+    <sprite n="blue_ground.png" x="0" y="0" w="1024" h="101"/>
+    <sprite n="candy_pile_background.png" x="0" y="629" w="572" h="250"/>
+    <sprite n="candy_pile_foreground.png" x="489" y="881" w="197" h="106" oX="2" oY="3" oW="199" oH="110"/>
+    <sprite n="facebook_icon.png" x="950" y="225" w="40" h="41" oX="1" oY="1" oW="44" oH="44"/>
+    <sprite n="flag.png" x="173" y="881" w="314" h="114" oX="0" oY="2" oW="314" oH="116"/>
+    <sprite n="guy_and_girl.png" x="297" y="159" w="268" h="445" oX="6" oY="3" oW="274" oH="448"/>
+    <sprite n="king_logo.png" x="0" y="881" w="171" h="115" oX="4" oY="0" oW="179" oH="123"/>
+    <sprite n="loader_background_panel.png" x="0" y="998" w="26" h="22" oX="2" oY="1" oW="30" oH="26"/>
+    <sprite n="loader_bar_panel.png" x="297" y="606" w="20" h="18" oX="0" oY="1" oW="21" oH="20"/>
+    <sprite n="loading_logo.png" x="688" y="159" w="260" h="178" oX="0" oY="0" oW="261" oH="179"/>
+    <sprite n="logo.png" x="0" y="159" w="295" h="468" oX="11" oY="0" oW="334" oH="504"/>
+    <sprite n="orange_gradient_background.png" x="950" y="159" w="64" h="64"/>
+    <sprite n="purple_candy_foreground.png" x="574" y="159" w="94" h="77" oX="0" oY="4" oW="101" oH="82"/>
+    <sprite n="red_curtain.png" x="0" y="103" w="1024" h="54"/>
+</TextureAtlas>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:e651c92938f73f48087e3a65b1f0d510$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="game_hud_boosters.png" width="1024" height="1024">
+    <sprite n="banner.png" x="0" y="0" w="469" h="194"/>
+    <sprite n="booster_bomb10.png" x="473" y="144" w="143" h="140"/>
+    <sprite n="booster_bomb15.png" x="767" y="0" w="143" h="140"/>
+    <sprite n="booster_bomb5.png" x="620" y="0" w="143" h="140"/>
+    <sprite n="booster_bomb_plus.png" x="473" y="0" w="143" h="140"/>
+    <sprite n="booster_colorbomb.png" x="453" y="288" w="115" h="115"/>
+    <sprite n="booster_fish.png" x="256" y="198" w="124" h="103"/>
+    <sprite n="booster_liqourice.png" x="0" y="435" w="113" h="111"/>
+    <sprite n="booster_lollipop.png" x="748" y="279" w="124" h="131"/>
+    <sprite n="booster_lucky.png" x="250" y="418" w="113" h="113"/>
+    <sprite n="booster_moves15.png" x="620" y="279" w="124" h="131"/>
+    <sprite n="booster_moves50.png" x="876" y="208" w="124" h="131"/>
+    <sprite n="booster_moves_plus.png" x="748" y="144" w="124" h="131"/>
+    <sprite n="booster_stripe.png" x="439" y="407" w="113" h="113"/>
+    <sprite n="booster_switch5.png" x="620" y="144" w="124" h="131"/>
+    <sprite n="booster_time.png" x="0" y="198" w="124" h="122"/>
+    <sprite n="booster_time15.png" x="0" y="324" w="117" h="107"/>
+    <sprite n="booster_time30.png" x="128" y="319" w="118" h="110"/>
+    <sprite n="booster_time60.png" x="256" y="305" w="119" h="109"/>
+    <sprite n="charm_colorpaint.png" x="914" y="0" w="100" h="124"/>
+    <sprite n="charm_life_big.png" x="128" y="198" w="124" h="117"/>
+    <sprite n="charm_time_freeze.png" x="876" y="343" w="124" h="123"/>
+    <sprite n="check.png" x="914" y="128" w="80" h="76"/>
+    <sprite n="checkbox.png" x="384" y="280" w="65" h="65"/>
+    <sprite n="plus.png" x="379" y="349" w="56" h="56"/>
+    <sprite n="plus_big.png" x="384" y="198" w="78" h="78"/>
+    <sprite n="striped+wraped_booster.png" x="121" y="433" w="113" h="111"/>
+</TextureAtlas>

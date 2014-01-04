@@ -1,0 +1,77 @@
+<Sounds>
+	<Sound name="SwooshIn" filename="sound/sounds/sign_falls_in1.wav"/>
+	<Sound name="HappyChime" filename="sound/sounds/square_removed1.wav"/>
+	<Sound name="HappyChime2" filename="sound/sounds/square_removed2.wav"/>
+	<Sound name="TapDown" filename="sound/sounds/button_down.wav"/>
+	<Sound name="TapUp" filename="sound/sounds/button_release.wav"/>
+	<Sound name="TapPress" filename="sound/sounds/button_press.wav"/>
+	
+	<Sound name="SwoopOut" filename="sound/sounds/info_swoop_out1.wav"/>
+	<Sound name="SwoopIn" filename="sound/sounds/info_swoop_in1.wav"/>
+	<Sound name="Switch" filename="sound/sounds/switch_sound1.wav"/>
+	<Sound name="Fail" filename="sound/sounds/negative_switch_sound1.wav"/>
+	<Sound name="Clack1" filename="sound/sounds/candy_land1.wav"/>
+	<Sound name="Clack2" filename="sound/sounds/candy_land2.wav"/>
+	<Sound name="Clack3" filename="sound/sounds/candy_land3.wav"/>
+	<Sound name="Clack4" filename="sound/sounds/candy_land4.wav"/>
+	<Sound name="Kross" filename="sound/sounds/klubb_kross1.wav"/>
+	<Sound name="Whistle" filename="sound/sounds/nut_out1.wav"/>
+	
+	<Sound name="HappyTwirlOrchestra" filename="sound/sounds/level_update1.wav"/>
+	
+	<Sound name="Combo1" filename="sound/sounds/combo_sound1.wav"/>
+	<Sound name="Combo2" filename="sound/sounds/combo_sound2.wav"/>
+	<Sound name="Combo3" filename="sound/sounds/combo_sound3.wav"/>
+	<Sound name="Combo4" filename="sound/sounds/combo_sound4.wav"/>
+	<Sound name="Combo5" filename="sound/sounds/combo_sound5.wav"/>
+	<Sound name="Combo6" filename="sound/sounds/combo_sound6.wav"/>
+	<Sound name="Combo7" filename="sound/sounds/combo_sound7.wav"/>
+	<Sound name="Combo8" filename="sound/sounds/combo_sound8.wav"/>
+	<Sound name="Combo9" filename="sound/sounds/combo_sound9.wav"/>
+	<Sound name="Combo10" filename="sound/sounds/combo_sound10.wav"/>
+	<Sound name="Combo11" filename="sound/sounds/combo_sound11.wav"/>
+	<Sound name="Combo12" filename="sound/sounds/combo_sound12.wav"/>
+	
+	<Sound name="Delicious" filename="sound/sounds/delicious.wav"/>
+	<Sound name="Divine" filename="sound/sounds/divine.wav"/>
+	<Sound name="SugarCrush" filename="sound/sounds/sugar_crush.wav"/>
+	<Sound name="Sweet" filename="sound/sounds/sweet.wav"/>
+	<Sound name="Tasty" filename="sound/sounds/tasty.wav"/>
+	<Sound name="Tickets" filename="sound/sounds/tickets_please1.wav"/>
+	
+	<Sound name="ZapExplode" filename="sound/sounds/colour_bomb1.wav"/>
+	<Sound name="HappyTwirl" filename="sound/sounds/colour_bomb_created.wav"/>
+	<Sound name="OrchestraHit" filename="sound/sounds/striped_candy_created1.wav"/>
+	<Sound name="OrchestraHitStrong" filename="sound/sounds/super_line_blast_created.wav"/>
+	<Sound name="OrchestraTremboloHit" filename="sound/sounds/line_blast1.wav"/>
+	<Sound name="TriangleChime" filename="sound/sounds/level_unlocked1.wav"/>
+	<Sound name="EpisodeUnlockedSFX" filename="sound/sounds/episode_unlocked_fanfare.wav"/>
+	<Sound name="CrunchyWrap" filename="sound/sounds/wrapped_candy_created1.wav"/>
+	<Sound name="Boom" filename="sound/sounds/bomb_sound1.wav"/>
+	<Sound name="ZapExplodeLong" filename="sound/sounds/super_colour_bomb1.wav"/>
+	<Sound name="FlyBy" filename="sound/sounds/swoosh_ut.wav"/>
+	<Sound name="Electricity" filename="sound/sounds/flash_loop.wav"/>
+	
+	<Sound name="DownwardScale" filename="sound/sounds/level_failed1.wav"/>
+	<Sound name="Fanfare" filename="sound/sounds/level_completed.wav"/>
+	<Sound name="TickTock" filename="sound/sounds/time_warning.wav"/>
+	<Sound name="Footsteps" filename="sound/sounds/footsteps1.wav"/>
+	
+	<Sound name="FastScaleShort" filename="sound/sounds/1_star.wav"/>
+	<Sound name="FastScaleMid" filename="sound/sounds/2_star.wav"/>
+	<Sound name="FastScaleLong" filename="sound/sounds/3_star.wav"/>
+	
+	<Sound name="Break" filename="sound/sounds/chocolate_removed.wav"/>
+	<Sound name="Slime" filename="sound/sounds/chocolate_grows.wav"/>
+	
+	<Sound name="PizzicatoHit" filename="sound/sounds/swedish_fish_candy1.wav"/>
+	<Sound name="TremboloSuspense" filename="sound/sounds/swedish_fish_candy2.wav"/>
+	<Sound name="TremboloSuspenseLoop" filename="sound/sounds/swedish_fish_candy_loop1.wav"/>	
+	<Sound name="Shuffle1" filename="sound/sounds/frosting_cleared1.wav"/>
+	<Sound name="Shuffle2" filename="sound/sounds/frosting_cleared2.wav"/>
+	
+	<Sound name="Crack" filename="sound/sounds/liqourice_lock_broken.wav"/>
+	
+	<Sound name="VoiceAllAboardSFX" filename="sound/sounds/all_aboard1.wav"/>
+	
+</Sounds>

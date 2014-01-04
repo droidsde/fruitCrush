@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:7c270b41955eb96c1aac6239d747c11a$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="game_hud.png" width="1024" height="1024">
+    <sprite n="booster_count_circle.png" x="976" y="91" w="46" h="47" oX="1" oY="0" oW="50" oH="53"/>
+    <sprite n="candy_key.png" x="732" y="541" w="64" h="65"/>
+    <sprite n="goal_frame.png" x="0" y="91" w="108" h="517"/>
+    <sprite n="goal_mark.png" x="143" y="1003" w="100" h="16" oX="1" oY="1" oW="102" oH="18"/>
+    <sprite n="infinite_icon.png" x="976" y="191" w="38" h="39" oX="1" oY="0" oW="40" oH="39"/>
+    <sprite n="ingredients_fall_icon.png" x="976" y="234" w="38" h="38"/>
+    <sprite n="jelly.png" x="285" y="250" w="128" h="114"/>
+    <sprite n="moves_sign_landscape.png" x="112" y="405" w="379" h="179"/>
+    <sprite n="moves_sign_portrait.png" x="434" y="91" w="409" h="171"/>
+    <sprite n="order_cbomb.png" x="285" y="610" w="97" h="96"/>
+    <sprite n="order_cbomb_cbomb.png" x="847" y="91" w="125" h="116"/>
+    <sprite n="order_cbomb_striped.png" x="832" y="330" w="125" h="113"/>
+    <sprite n="order_cbomb_wrapped.png" x="417" y="266" w="124" h="117"/>
+    <sprite n="order_striped.png" x="732" y="448" w="89" h="89"/>
+    <sprite n="order_striped_striped.png" x="832" y="447" w="125" h="112"/>
+    <sprite n="order_striped_wrapped.png" x="285" y="717" w="124" h="116"/>
+    <sprite n="order_wrapped.png" x="386" y="610" w="107" h="91"/>
+    <sprite n="order_wrapped_wrapped.png" x="847" y="211" w="125" h="115"/>
+    <sprite n="pink_bar.png" x="0" y="0" w="1024" h="87"/>
+    <sprite n="pink_bar_landscape.png" x="545" y="266" w="283" h="178"/>
+    <sprite n="pink_sign.png" x="271" y="876" w="159" h="118"/>
+    <sprite n="progress.png" x="0" y="1019" w="83" h="5"/>
+    <sprite n="purple_notification_icon.png" x="976" y="142" w="42" h="45"/>
+    <sprite n="score_sign_landscape.png" x="0" y="612" w="281" h="260"/>
+    <sprite n="score_sign_portrait.png" x="112" y="91" w="312" h="155"/>
+    <sprite n="skip_button.png" x="800" y="563" w="200" h="150"/>
+    <sprite n="skip_cutscene.png" x="495" y="448" w="233" h="113" oX="1" oY="0" oW="235" oH="115"/>
+    <sprite n="star_1.png" x="961" y="390" w="60" h="56" oX="3" oY="2" oW="64" oH="58"/>
+    <sprite n="star_2.png" x="961" y="330" w="62" h="56" oX="1" oY="2" oW="64" oH="58"/>
+    <sprite n="star_3.png" x="961" y="450" w="58" h="52" oX="3" oY="3" oW="64" oH="58"/>
+    <sprite n="timer.png" x="413" y="717" w="64" h="64"/>
+    <sprite n="timer_bg.png" x="0" y="876" w="139" h="139"/>
+    <sprite n="timer_frame.png" x="112" y="250" w="151" h="151"/>
+    <sprite n="wait_to_help_friend.png" x="143" y="876" w="124" h="123"/>
+</TextureAtlas>

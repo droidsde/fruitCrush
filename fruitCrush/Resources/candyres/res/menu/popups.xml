@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:8fa42d2d2225d2b527d2d175fdc24834$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="popups.png" width="1024" height="1024">
+    <sprite n="beige_panel.png" x="572" y="194" w="44" h="47"/>
+    <sprite n="blue_panel.png" x="710" y="145" w="44" h="47"/>
+    <sprite n="charmshop_gold_panel.png" x="429" y="145" w="74" h="74"/>
+    <sprite n="charmshop_panel.png" x="353" y="145" w="74" h="74"/>
+    <sprite n="check_box.png" x="160" y="42" w="31" h="30"/>
+    <sprite n="frame.png" x="204" y="531" w="104" h="104"/>
+    <sprite n="green_panel.png" x="664" y="145" w="44" h="47"/>
+    <sprite n="grey_scroll_bar.png" x="2" y="2" w="9" h="446"/>
+    <sprite n="heart.png" x="505" y="145" w="65" h="55"/>
+    <sprite n="heart_broken.png" x="204" y="2" w="150" h="137"/>
+    <sprite n="light_pink_panel.png" x="618" y="145" w="44" h="47"/>
+    <sprite n="lock.png" x="160" y="305" w="91" h="114"/>
+    <sprite n="medal.png" x="2" y="834" w="182" h="180"/>
+    <sprite n="medal_button.png" x="186" y="824" w="170" h="170"/>
+    <sprite n="medal_gray.png" x="2" y="652" w="182" h="180"/>
+    <sprite n="medal_gray_button.png" x="186" y="652" w="170" h="170"/>
+    <sprite n="mini_locked_panel.png" x="572" y="145" w="44" h="47"/>
+    <sprite n="paper_panel.png" x="332" y="415" w="73" h="74"/>
+    <sprite n="pink_message_border.png" x="160" y="74" w="18" h="58"/>
+    <sprite n="pink_panel.png" x="142" y="208" w="44" h="47"/>
+    <sprite n="plus_heart.png" x="253" y="305" w="126" h="108"/>
+    <sprite n="plus_three.png" x="432" y="232" w="92" h="62"/>
+    <sprite n="pre_level_bg_panel.png" x="310" y="531" w="94" h="98"/>
+    <sprite n="sad_heart.png" x="204" y="421" w="126" h="108"/>
+    <sprite n="scroll_icon.png" x="13" y="305" w="9" h="137"/>
+    <sprite n="shop_top_gold.png" x="798" y="117" w="200" h="113"/>
+    <sprite n="shop_top_pink.png" x="798" y="2" w="200" h="113"/>
+    <sprite n="spinner.png" x="24" y="305" w="134" h="134"/>
+    <sprite n="sync_widget_background.png" x="13" y="2" w="145" h="145"/>
+    <sprite n="sync_widget_button.png" x="2" y="450" w="200" h="200"/>
+    <sprite n="sync_widget_check.png" x="381" y="301" w="70" h="67"/>
+    <sprite n="sync_widget_fail.png" x="142" y="149" w="58" h="57"/>
+    <sprite n="sync_widget_wifi.png" x="353" y="232" w="77" h="67"/>
+    <sprite n="video_heart.png" x="13" y="149" w="127" h="109"/>
+    <sprite n="white_box2.png" x="186" y="996" w="15" h="18"/>
+    <sprite n="white_box_time.png" x="160" y="2" w="38" h="38"/>
+    <sprite n="white_small_panel.png" x="203" y="996" w="14" h="14"/>
+    <sprite n="yeti_charm_bg_panel.png" x="204" y="141" w="147" h="162"/>
+    <sprite n="yeti_charm_top.png" x="358" y="2" w="438" h="141"/>
+</TextureAtlas>

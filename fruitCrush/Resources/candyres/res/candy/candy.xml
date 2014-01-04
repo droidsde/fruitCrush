@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:df7ebca78cbc09caa154919ca302f719$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="candy.png" width="1024" height="1024">
+    <sprite n="block_frosting.png" x="773" y="675" w="74" h="66"/>
+    <sprite n="block_multi_frosting1.png" x="866" y="491" w="74" h="66"/>
+    <sprite n="block_multi_frosting2.png" x="260" y="934" w="74" h="66"/>
+    <sprite n="block_multi_frosting3.png" x="2" y="940" w="74" h="66"/>
+    <sprite n="block_multi_frosting4.png" x="100" y="937" w="74" h="66"/>
+    <sprite n="block_multi_frosting5.png" x="465" y="941" w="74" h="66"/>
+    <sprite n="blue.png" x="619" y="554" w="101" h="97"/>
+    <sprite n="blue_chameleon.png" x="432" y="348" w="110" h="105"/>
+    <sprite n="blue_fish.png" x="653" y="403" w="103" h="89" oX="0" oY="1" oW="103" oH="90"/>
+    <sprite n="blue_striped_fish.png" x="665" y="752" w="102" h="87"/>
+    <sprite n="blue_wrapped_fish.png" x="159" y="287" w="155" h="140" oX="0" oY="1" oW="156" oH="141"/>
+    <sprite n="blue_wrapper.png" x="742" y="2" w="107" h="92"/>
+    <sprite n="bomb.png" x="94" y="537" w="102" h="101"/>
+    <sprite n="cake_bomb_bl1.png" x="930" y="877" w="73" h="66" oX="1" oY="0" oW="74" oH="66"/>
+    <sprite n="cake_bomb_bl2.png" x="943" y="721" w="73" h="66" oX="1" oY="0" oW="74" oH="66"/>
+    <sprite n="cake_bomb_bl3.png" x="930" y="809" w="73" h="66" oX="1" oY="0" oW="74" oH="66"/>
+    <sprite n="cake_bomb_br1.png" x="925" y="654" w="74" h="65" oX="0" oY="0" oW="74" oH="66"/>
+    <sprite n="cake_bomb_br2.png" x="867" y="742" w="74" h="65" oX="0" oY="0" oW="74" oH="66"/>
+    <sprite n="cake_bomb_br3.png" x="389" y="914" w="74" h="66"/>
+    <sprite n="cake_bomb_tl1.png" x="651" y="937" w="74" h="65" oX="0" oY="1" oW="74" oH="66"/>
+    <sprite n="cake_bomb_tl2.png" x="942" y="491" w="74" h="65" oX="0" oY="1" oW="74" oH="66"/>
+    <sprite n="cake_bomb_tl3.png" x="849" y="675" w="74" h="65" oX="0" oY="1" oW="74" oH="66"/>
+    <sprite n="cake_bomb_tr1.png" x="389" y="846" w="74" h="66"/>
+    <sprite n="cake_bomb_tr2.png" x="722" y="580" w="74" h="66"/>
+    <sprite n="cake_bomb_tr3.png" x="944" y="190" w="74" h="66"/>
+    <sprite n="candy_canon_full.png" x="316" y="144" w="120" h="108" oX="0" oY="0" oW="120" oH="108"/>
+    <sprite n="candy_canon_half.png" x="317" y="2" w="120" h="63" oX="0" oY="0" oW="120" oH="63"/>
+    <sprite n="candy_canon_twist.png" x="438" y="216" w="51" h="20" oX="0" oY="0" oW="51" oH="20"/>
+    <sprite n="canon_bomb.png" x="706" y="494" w="54" h="43" oX="0" oY="2" oW="54" oH="48"/>
+    <sprite n="canon_bomb_half.png" x="510" y="190" w="68" h="37" oX="0" oY="0" oW="81" oH="41"/>
+    <sprite n="canon_ingredient.png" x="764" y="263" w="49" h="46" oX="1" oY="1" oW="54" oH="48"/>
+    <sprite n="canon_ingredient_half.png" x="631" y="190" w="49" h="26" oX="1" oY="0" oW="54" oH="27"/>
+    <sprite n="canon_licorice.png" x="336" y="934" w="49" h="48" oX="2" oY="0" oW="54" oH="48"/>
+    <sprite n="canon_licorice_half.png" x="580" y="190" w="49" h="27" oX="2" oY="0" oW="54" oH="27"/>
+    <sprite n="cherry.png" x="300" y="536" w="104" h="97"/>
+    <sprite n="chocolate.png" x="398" y="67" w="78" h="69"/>
+    <sprite n="chocolate_spawn_1.png" x="478" y="67" w="31" h="31" oX="20" oY="16" oW="71" oH="63"/>
+    <sprite n="chocolate_spawn_2.png" x="645" y="494" w="59" h="53" oX="6" oY="5" oW="71" oH="63"/>
+    <sprite n="chocolate_spawn_3.png" x="800" y="944" w="70" h="63" oX="0" oY="0" oW="71" oH="63"/>
+    <sprite n="chocolate_spawn_4.png" x="727" y="944" w="71" h="63"/>
+    <sprite n="chocolate_spawn_5.png" x="439" y="2" w="71" h="63"/>
+    <sprite n="chocolate_spawn_base.png" x="301" y="456" w="78" h="78" oX="0" oY="0" oW="78" oH="78"/>
+    <sprite n="chocolate_spawn_blades.png" x="381" y="456" w="41" h="53" oX="0" oY="0" oW="41" oH="53"/>
+    <sprite n="coconut_wheel.png" x="198" y="536" w="100" h="100"/>
+    <sprite n="fish_colorbomb.png" x="956" y="2" w="64" h="60" oX="0" oY="1" oW="64" oH="61"/>
+    <sprite n="green.png" x="2" y="644" w="88" h="97"/>
+    <sprite n="green_chameleon.png" x="2" y="429" w="98" h="106" oX="0" oY="0" oW="98" oH="106"/>
+    <sprite n="green_fish.png" x="655" y="312" w="103" h="89" oX="0" oY="1" oW="103" oH="90"/>
+    <sprite n="green_striped_fish.png" x="865" y="284" w="102" h="87"/>
+    <sprite n="green_wrapped_fish.png" x="160" y="2" w="155" h="140" oX="0" oY="1" oW="156" oH="141"/>
+    <sprite n="green_wrapper.png" x="655" y="218" w="107" h="92"/>
+    <sprite n="hazelnut.png" x="566" y="841" w="96" h="89" oX="3" oY="4" oW="102" oH="97"/>
+    <sprite n="licorice.png" x="317" y="67" w="79" h="71" oX="0" oY="0" oW="80" oH="71"/>
+    <sprite n="licorice_square.png" x="558" y="932" w="91" h="87" oX="0" oY="1" oW="92" oH="89"/>
+    <sprite n="lucky_blue.png" x="769" y="752" w="96" h="96"/>
+    <sprite n="lucky_green.png" x="468" y="747" w="96" h="96"/>
+    <sprite n="lucky_orange.png" x="291" y="836" w="96" h="96"/>
+    <sprite n="lucky_purple.png" x="2" y="842" w="96" h="96"/>
+    <sprite n="lucky_red.png" x="193" y="836" w="96" h="96"/>
+    <sprite n="lucky_yellow.png" x="922" y="92" w="96" h="96"/>
+    <sprite n="marmalade_blocker.png" x="764" y="187" w="74" h="74"/>
+    <sprite n="mystery_blue.png" x="664" y="841" w="88" h="94" oX="4" oY="2" oW="102" oH="98"/>
+    <sprite n="mystery_green.png" x="842" y="850" w="86" h="92" oX="6" oY="3" oW="102" oH="98"/>
+    <sprite n="mystery_orange.png" x="887" y="559" w="87" h="93" oX="5" oY="2" oW="102" oH="98"/>
+    <sprite n="mystery_purple.png" x="468" y="845" w="88" h="94" oX="4" oY="2" oW="102" oH="98"/>
+    <sprite n="mystery_red.png" x="754" y="850" w="86" h="92" oX="6" oY="3" oW="102" oH="98"/>
+    <sprite n="mystery_yellow.png" x="798" y="580" w="87" h="93" oX="5" oY="2" oW="102" oH="98"/>
+    <sprite n="orange.png" x="100" y="838" w="75" h="97"/>
+    <sprite n="orange_chameleon.png" x="102" y="429" w="84" h="106"/>
+    <sprite n="orange_fish.png" x="864" y="402" w="102" h="87"/>
+    <sprite n="orange_striped_fish.png" x="762" y="491" w="102" h="87"/>
+    <sprite n="orange_wrapped_fish.png" x="2" y="145" w="155" h="141" oX="0" oY="0" oW="156" oH="141"/>
+    <sprite n="orange_wrapper.png" x="510" y="554" w="107" h="92"/>
+    <sprite n="pepper_candy_blue.png" x="424" y="254" w="114" h="92" oX="0" oY="3" oW="115" oH="98"/>
+    <sprite n="pepper_candy_green.png" x="627" y="2" w="113" h="92" oX="0" oY="3" oW="115" oH="98"/>
+    <sprite n="pepper_candy_orange.png" x="540" y="229" w="113" h="92" oX="0" oY="3" oW="115" oH="98"/>
+    <sprite n="pepper_candy_purple.png" x="316" y="362" w="114" h="92" oX="0" oY="3" oW="115" oH="98"/>
+    <sprite n="pepper_candy_red.png" x="511" y="96" w="113" h="92" oX="0" oY="3" oW="115" oH="98"/>
+    <sprite n="pepper_candy_yellow.png" x="512" y="2" w="113" h="92" oX="0" oY="3" oW="115" oH="98"/>
+    <sprite n="playmodeicon_drop.png" x="177" y="934" w="81" h="82" oX="0" oY="0" oW="82" oH="83"/>
+    <sprite n="polka_blue_horisontal.png" x="302" y="635" w="102" h="97"/>
+    <sprite n="polka_blue_vertical.png" x="198" y="638" w="102" h="97"/>
+    <sprite n="polka_green_horisontal.png" x="297" y="737" w="91" h="97"/>
+    <sprite n="polka_green_vertical.png" x="100" y="739" w="91" h="97"/>
+    <sprite n="polka_orange_horisontal.png" x="390" y="747" w="76" h="97"/>
+    <sprite n="polka_orange_vertical.png" x="587" y="742" w="76" h="97"/>
+    <sprite n="polka_purple_horisontal.png" x="94" y="640" w="102" h="97"/>
+    <sprite n="polka_purple_vertical.png" x="406" y="549" w="102" h="97"/>
+    <sprite n="polka_red_horisontal.png" x="198" y="737" w="97" h="97"/>
+    <sprite n="polka_red_vertical.png" x="406" y="648" w="97" h="97"/>
+    <sprite n="polka_yellow_horisontal.png" x="691" y="653" w="80" h="97"/>
+    <sprite n="polka_yellow_vertical.png" x="840" y="96" w="80" h="97"/>
+    <sprite n="purple.png" x="541" y="455" w="102" h="97"/>
+    <sprite n="purple_chameleon.png" x="188" y="429" w="111" h="105"/>
+    <sprite n="purple_fish.png" x="851" y="2" w="103" h="88" oX="0" oY="2" oW="103" oH="90"/>
+    <sprite n="purple_striped_fish.png" x="587" y="653" w="102" h="87"/>
+    <sprite n="purple_wrapped_fish.png" x="2" y="288" w="153" h="139" oX="1" oY="1" oW="156" oH="141"/>
+    <sprite n="purple_wrapper.png" x="544" y="323" w="107" h="92"/>
+    <sprite n="red.png" x="2" y="743" w="96" h="97"/>
+    <sprite n="red_chameleon.png" x="316" y="254" w="106" h="106" oX="0" oY="0" oW="106" oH="106"/>
+    <sprite n="red_fish.png" x="735" y="96" w="103" h="89" oX="0" oY="1" oW="103" oH="90"/>
+    <sprite n="red_striped_fish.png" x="760" y="402" w="102" h="87"/>
+    <sprite n="red_wrapped_fish.png" x="2" y="2" w="156" h="141"/>
+    <sprite n="red_wrapper.png" x="432" y="455" w="107" h="92"/>
+    <sprite n="select_highlight.png" x="438" y="138" w="70" h="76"/>
+    <sprite n="yellow.png" x="505" y="648" w="80" h="97"/>
+    <sprite n="yellow_chameleon.png" x="2" y="537" w="90" h="105" oX="0" oY="0" oW="90" oH="105"/>
+    <sprite n="yellow_fish.png" x="760" y="312" w="103" h="88" oX="0" oY="2" oW="103" oH="90"/>
+    <sprite n="yellow_striped_fish.png" x="840" y="195" w="102" h="87"/>
+    <sprite n="yellow_wrapped_fish.png" x="159" y="145" w="155" h="140" oX="0" oY="1" oW="156" oH="141"/>
+    <sprite n="yellow_wrapper.png" x="626" y="96" w="107" h="92"/>
+</TextureAtlas>

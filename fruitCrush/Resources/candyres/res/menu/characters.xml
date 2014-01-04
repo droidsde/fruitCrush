@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:ea731b6bc641c2483e9303935641e5f6$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="characters.png" width="1024" height="1024">
+    <sprite n="complete_ill.png" x="350" y="2" w="321" h="236" oX="5" oY="18" oW="331" oH="284"/>
+    <sprite n="extra_happy_girl.png" x="2" y="293" w="251" h="235"/>
+    <sprite n="level_completed_boat.png" x="673" y="2" w="310" h="267"/>
+    <sprite n="level_completed_plane.png" x="2" y="2" w="346" h="289"/>
+    <sprite n="level_completed_train.png" x="350" y="240" w="297" h="301"/>
+    <sprite n="sad_girl.png" x="2" y="530" w="232" h="240"/>
+    <sprite n="speech_bubble.png" x="128" y="772" w="140" h="107"/>
+    <sprite n="tall_man_head.png" x="470" y="543" w="167" h="285"/>
+    <sprite n="tallman_whatis.png" x="2" y="772" w="124" h="154"/>
+    <sprite n="tip_gube.png" x="270" y="543" w="198" h="308" oX="0" oY="18" oW="200" oH="326"/>
+    <sprite n="tooth_fairy.png" x="649" y="271" w="230" h="286" oX="0" oY="1" oW="232" oH="288"/>
+    <sprite n="tutorial_candy1.png" x="2" y="928" w="177" h="67"/>
+    <sprite n="tutorial_candy2.png" x="255" y="293" w="63" h="164"/>
+    <sprite n="tutorial_candy3.png" x="181" y="881" w="179" h="65" oX="0" oY="1" oW="179" oH="67"/>
+</TextureAtlas>

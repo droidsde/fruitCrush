@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:fb6c559a4370caec07eeea0daf2db730$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="level_menu_hd.png" width="2048" height="2048">
+    <sprite n="arch_bottom.png" x="4" y="4" w="810" h="806" oX="0" oY="4" oW="815" oH="809"/>
+    <sprite n="avatar_female.png" x="1226" y="1514" w="268" h="268"/>
+    <sprite n="avatar_male.png" x="1200" y="920" w="268" h="268"/>
+    <sprite n="back_to_number_1_button.png" x="818" y="126" w="194" h="128" oX="6" oY="2" oW="206" oH="138"/>
+    <sprite n="booster_square.png" x="1468" y="1786" w="240" h="232"/>
+    <sprite n="booster_square_green.png" x="1216" y="684" w="240" h="232"/>
+    <sprite n="booster_square_grey.png" x="1220" y="136" w="240" h="232"/>
+    <sprite n="candy_key.png" x="888" y="920" w="308" h="314" oX="0" oY="0" oW="309" oH="314"/>
+    <sprite n="default_avatar.png" x="994" y="736" w="168" h="168"/>
+    <sprite n="dropdown_menu.png" x="1032" y="4" w="184" h="176" oX="0" oY="2" oW="192" oH="178"/>
+    <sprite n="exit_button.png" x="1472" y="1176" w="156" h="156" oX="0" oY="0" oW="155" oH="156"/>
+    <sprite n="fb_connect_toplist_button.png" x="862" y="1534" w="360" h="362" oX="32" oY="8" oW="412" oH="400"/>
+    <sprite n="give_life.png" x="818" y="626" w="172" h="176" oX="0" oY="4" oW="172" oH="182"/>
+    <sprite n="green_button.png" x="1468" y="386" w="516" h="152" oX="4" oY="0" oW="522" oH="153"/>
+    <sprite n="green_check.png" x="1318" y="1192" w="142" h="142" oX="0" oY="0" oW="146" oH="148"/>
+    <sprite n="green_check_mark.png" x="1498" y="1506" w="166" h="146"/>
+    <sprite n="green_pre_level_star.png" x="460" y="1244" w="282" h="288" oX="0" oY="4" oW="282" oH="296"/>
+    <sprite n="help_button.png" x="818" y="442" w="180" h="180"/>
+    <sprite n="leave_button.png" x="818" y="258" w="180" h="180"/>
+    <sprite n="lock_icon.png" x="1216" y="372" w="246" h="308"/>
+    <sprite n="menu_blue_button.png" x="1472" y="1020" w="510" h="152" oX="6" oY="4" oW="522" oH="166"/>
+    <sprite n="menu_grey_button.png" x="1472" y="864" w="510" h="152" oX="6" oY="4" oW="522" oH="166"/>
+    <sprite n="menu_pink_button.png" x="1468" y="4" w="536" h="222" oX="0" oY="2" oW="535" oH="230"/>
+    <sprite n="menu_yellow_button.png" x="1468" y="542" w="510" h="152" oX="6" oY="4" oW="522" oH="166"/>
+    <sprite n="mistery_quest_grey.png" x="460" y="814" w="424" h="426" oX="0" oY="0" oW="426" oH="429"/>
+    <sprite n="mistery_quest_pink.png" x="434" y="1544" w="424" h="426" oX="0" oY="0" oW="426" oH="429"/>
+    <sprite n="mistery_quest_yellow.png" x="4" y="1544" w="426" h="428" oX="0" oY="2" oW="426" oH="429"/>
+    <sprite n="music_icon.png" x="1032" y="552" w="180" h="180"/>
+    <sprite n="notepad.png" x="1712" y="1176" w="282" h="160" oX="0" oY="0" oW="282" oH="159"/>
+    <sprite n="notepad_left.png" x="252" y="814" w="102" h="726"/>
+    <sprite n="notepad_left_long.png" x="4" y="814" w="244" h="726"/>
+    <sprite n="notepad_right.png" x="358" y="814" w="98" h="726"/>
+    <sprite n="play_pink_button.png" x="1468" y="230" w="516" h="152" oX="4" oY="0" oW="522" oH="153"/>
+    <sprite n="playmodeicon_drop.png" x="1484" y="1340" w="162" h="162" oX="0" oY="0" oW="164" oH="166"/>
+    <sprite n="playmodeicon_lightup.png" x="1318" y="1340" w="162" h="162" oX="0" oY="0" oW="164" oH="166"/>
+    <sprite n="playmodeicon_order.png" x="1792" y="698" w="162" h="162" oX="0" oY="0" oW="164" oH="166"/>
+    <sprite n="playmodeicon_switch.png" x="1626" y="698" w="162" h="162" oX="0" oY="0" oW="164" oH="166"/>
+    <sprite n="playmodeicon_time.png" x="1460" y="698" w="162" h="162" oX="0" oY="0" oW="164" oH="166"/>
+    <sprite n="purple_plus.png" x="1650" y="1340" w="144" h="146" oX="0" oY="0" oW="146" oH="148"/>
+    <sprite n="red_pre_level_star.png" x="746" y="1244" w="282" h="286" oX="0" oY="6" oW="282" oH="296"/>
+    <sprite n="scroll_bar_divider.png" x="2008" y="4" w="14" h="224" oX="24" oY="20" oW="64" oH="256"/>
+    <sprite n="scroll_dot_black.png" x="158" y="2012" w="30" h="30"/>
+    <sprite n="scroll_dot_blue.png" x="124" y="1976" w="32" h="32"/>
+    <sprite n="scroll_dot_pink.png" x="124" y="2012" w="30" h="30"/>
+    <sprite n="scroll_select_brackets.png" x="4" y="1976" w="116" h="58"/>
+    <sprite n="sound_icon.png" x="1032" y="368" w="180" h="180"/>
+    <sprite n="sound_off_red_stripe.png" x="888" y="4" w="126" h="118"/>
+    <sprite n="target_blue_bar.png" x="862" y="1900" w="602" h="142"/>
+    <sprite n="target_blue_bar_panel.png" x="888" y="806" w="88" h="90"/>
+    <sprite n="utility_button.png" x="1032" y="184" w="180" h="180"/>
+    <sprite n="yellow_pre_level_star.png" x="1032" y="1238" w="282" h="272" oX="0" oY="12" oW="282" oH="296"/>
+    <sprite n="you_button.png" x="1226" y="4" w="194" h="128" oX="6" oY="2" oW="206" oH="138"/>
+</TextureAtlas>

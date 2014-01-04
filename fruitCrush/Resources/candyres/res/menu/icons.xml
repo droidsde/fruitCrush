@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:241c7eb4d71ca80ebbb3bacdb26d742c$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="icons.png" width="1024" height="1024">
+    <sprite n="arrow.png" x="197" y="138" w="26" h="38" oX="0" oY="0" oW="26" oH="38"/>
+    <sprite n="back.png" x="947" y="0" w="77" h="77" oX="0" oY="0" oW="78" oH="78"/>
+    <sprite n="bell_icon.png" x="773" y="310" w="94" h="95" oX="0" oY="2" oW="98" oH="97"/>
+    <sprite n="connect.png" x="784" y="161" w="147" h="147" oX="0" oY="0" oW="147" oH="147"/>
+    <sprite n="connect_icon.png" x="0" y="348" w="93" h="93"/>
+    <sprite n="faq.png" x="784" y="0" w="161" h="159" oX="0" oY="0" oW="161" oH="159"/>
+    <sprite n="faq_icon.png" x="271" y="345" w="93" h="93"/>
+    <sprite n="grey_heart_cardboard.png" x="947" y="138" w="65" h="57" oX="0" oY="0" oW="65" oH="57"/>
+    <sprite n="grey_mystery_icon.png" x="711" y="241" w="60" h="94"/>
+    <sprite n="grey_mystery_icon_detail.png" x="176" y="208" w="29" h="29" oX="0" oY="0" oW="30" oH="30"/>
+    <sprite n="heart_base.png" x="933" y="277" w="64" h="55" oX="0" oY="0" oW="64" oH="55"/>
+    <sprite n="heart_cardboard.png" x="947" y="79" w="65" h="57" oX="0" oY="0" oW="65" oH="57"/>
+    <sprite n="how_icon.png" x="176" y="345" w="93" h="93"/>
+    <sprite n="mystery_icon.png" x="529" y="254" w="60" h="94"/>
+    <sprite n="notif.png" x="619" y="0" w="163" h="161" oX="0" oY="0" oW="163" oH="161"/>
+    <sprite n="notification_icon.png" x="869" y="334" w="93" h="93"/>
+    <sprite n="on.png" x="0" y="138" w="195" h="68" oX="1" oY="1" oW="198" oH="71"/>
+    <sprite n="plus_three_moves.png" x="529" y="186" w="62" h="66" oX="0" oY="0" oW="62" oH="66"/>
+    <sprite n="reset.png" x="0" y="208" w="174" h="138" oX="0" oY="0" oW="174" oH="138"/>
+    <sprite n="reset_icon.png" x="933" y="197" w="86" h="78" oX="0" oY="0" oW="86" oH="78"/>
+    <sprite n="restore.png" x="225" y="170" w="184" h="173" oX="0" oY="0" oW="184" oH="173"/>
+    <sprite n="restore_icon.png" x="411" y="256" w="114" h="93" oX="0" oY="0" oW="114" oH="93"/>
+    <sprite n="settings.png" x="432" y="0" w="185" h="184"/>
+    <sprite n="sms.png" x="227" y="0" w="203" h="168"/>
+    <sprite n="sms_icon.png" x="591" y="310" w="109" h="90" oX="0" oY="0" oW="110" oH="91"/>
+    <sprite n="tag.png" x="0" y="0" w="225" h="136" oX="0" oY="0" oW="225" oH="136"/>
+    <sprite n="text_input_panel.png" x="197" y="178" w="21" h="21"/>
+    <sprite n="ticket_icon.png" x="619" y="163" w="116" h="76" oX="0" oY="0" oW="116" oH="76"/>
+    <sprite n="top.png" x="593" y="241" w="116" h="67" oX="0" oY="0" oW="117" oH="68"/>
+    <sprite n="top_dark.png" x="411" y="186" w="116" h="68" oX="0" oY="0" oW="117" oH="70"/>
+</TextureAtlas>
