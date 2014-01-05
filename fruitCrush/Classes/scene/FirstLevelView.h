@@ -15,11 +15,13 @@
 
 class FirstLevelView : public BaseScrollView {
 public:
+    static CCScene* scene();
     virtual bool init();
     CREATE_FUNC(FirstLevelView);
+    
     virtual CCLayer* getContainLayer();
     virtual CCNode* getSpriteByLevel(int level);
-    
+    virtual void touchEventAction(LsTouch* touch, int type);
 };
 
 #endif /* defined(__fruitCrush__FirstLevelView__) */

@@ -15,6 +15,7 @@ class GameScene : public cocos2d::CCScene
 {
 private:
     GameLayer* _gameLayer;
+    //CC_SYNTHESIZE_RETAIN(GameLayer*, _gameLayer, GameLayer);
     
 public:
     static GameScene* sceneWithMap(int mapNo);

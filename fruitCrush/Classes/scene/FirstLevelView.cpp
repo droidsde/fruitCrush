@@ -9,10 +9,17 @@
 #include "FirstLevelView.h"
 #include "FruitCrush.h"
 #include "SimpleAudioEngine.h"
+#include "SecondLevelView.h"
 #include "ResCenter.h"
 
 using namespace CocosDenshion;
 
+CCScene* FirstLevelView::scene(){
+    CCScene* scene = CCScene::create();
+    CCLayer* layer = FirstLevelView::create();
+    scene->addChild(layer);
+    return scene;
+}
 bool FirstLevelView::init(){
     bool bRef = false;
     do{
@@ -51,11 +58,38 @@ bool FirstLevelView::init(){
     return bRef;
 }
 
+void FirstLevelView::touchEventAction(LsTouch *touch, int type){
+    // type 事件类型，0：touchbegin 1：touchend 触发 2：touchend 未触发
+    if (touch)
+        CCLog("touch event action id: %d  type: %d", touch->getEventId(), type);
+    const int selectTag = 10001;
+    if (type == 0 && touch){
+        getScrollView()->getContainer()->removeChildByTag(selectTag);
+        // 添加选撞状态的精灵，背景
+        CCSprite* sprite = CCSprite::create("sel.png");
+        sprite->setScaleX(2);
+        sprite->setScaleY(4);
+        sprite->setPosition(touch->getPosition());
+        getScrollView()->getContainer()->addChild(sprite, 1, selectTag);
+        
+    } else {
+        getScrollView()->getContainer()->removeChildByTag(selectTag);
+    }
+    if (type == 1 && touch){
+        // 收到 type 为 1 表示触发关卡选择
+        //CCString* str = CCString::createWithFormat("您选择的关卡为 %d .", touch->getEventId() + 1);
+        //CCMessageBox("关卡", str->getCString());
+        
+        SimpleAudioEngine::sharedEngine()->playEffect("button_press.wav");
+        CCDirector::sharedDirector()->replaceScene(CCTransitionSplitRows::create(1, SecondLevelView::sceneWithTheme(touch->getEventId())));
+    }
+}
+
 CCLayer* FirstLevelView::getContainLayer(){
     // 48 个关卡
-    int levelCount = 48;
-    int widthCount = 4;
-    int heightCount = 4;
+    int levelCount = 4;
+    int widthCount = 1;
+    int heightCount = 1;
     m_nPageCount = (levelCount - 1) / (widthCount * heightCount) + 1;
     
     CCLog("关卡数：%d, 页数：%d", levelCount, m_nPageCount);

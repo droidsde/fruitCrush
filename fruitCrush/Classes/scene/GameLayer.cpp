@@ -8,7 +8,7 @@
 
 #include "GameLayer.h"
 #include "FruitCrush.h"
-#include "SecondLevelView.h"
+#include "FirstLevelView.h"
 
 #include "SimpleAudioEngine.h"
 #include "ActionEffectHub.h"
@@ -98,7 +98,7 @@ void GameLayer::ccTouchesEnded(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEven
         if (flag) {
             _backSprite->setColor(ccc3(222, 43, 54));
             SimpleAudioEngine::sharedEngine()->playEffect("click.caf");
-            CCScene *pScene = SecondLevelView::scene();
+            CCScene *pScene = FirstLevelView::scene();
             CCDirector::sharedDirector()->replaceScene(CCTransitionSplitRows::create(1, pScene));
         }
     }

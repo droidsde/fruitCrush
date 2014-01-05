@@ -11,45 +11,27 @@
 
 #include "cocos2d.h"
 #include "cocos-ext.h"
-#include "LsTouch.h"
+#include "BaseScrollView.h"
 
 USING_NS_CC;
 USING_NS_CC_EXT;
 
-class SecondLevelView : public CCLayer, LsTouchEvent{
+class SecondLevelView : public BaseScrollView {
 public:
-    SecondLevelView();
-    ~SecondLevelView();
-    
     static CCScene* scene();
+    static CCScene* sceneWithTheme(int themeNo);
     virtual bool init();
     CREATE_FUNC(SecondLevelView);
     
     virtual void touchEventAction(LsTouch* touch, int type);
     
-    virtual void registerWithTouchDispatcher(void);
-    
-	virtual bool ccTouchBegan(CCTouch* pTouch, CCEvent* pEvent);
-	virtual void ccTouchMoved(CCTouch* pTouch, CCEvent* pEvent);
-	virtual void ccTouchEnded(CCTouch* pTouch, CCEvent* pEvent);
-	virtual void ccTouchCancelled(CCTouch* pTouch, CCEvent* pEvent);
-    
-    void adjustScrollView(float offset);
     CCLayer* getContainLayer();
     
     CCNode* getSpriteByLevel(int level);
     
-    void setCurPageBall();
+    void loadWiththeme(int themeNo);
+    CCLayer* getContainLayerWithTheme(int themeNo);
     
-    
-private:
-    CCPoint m_touchPoint;
-    CCPoint m_touchOffset;
-    
-    int m_nCurPage;
-    int m_nPageCount;
-    
-    CC_SYNTHESIZE_RETAIN(CCScrollView*, m_pScrollView, ScrollView);
 };
 
 #endif /* defined(__fruitCrush__SecondLevelView__) */

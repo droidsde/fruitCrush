@@ -8,7 +8,7 @@
 
 #include "StartScene.h"
 #include "LevelScene.h"
-#include "SecondLevelView.h"
+#include "FirstLevelView.h"
 #include "SimpleAudioEngine.h"
 #include "ResCenter.h"
 USING_NS_CC;
@@ -105,7 +105,7 @@ void StartScene::menubuttonPressedCB(cocos2d::CCMenuItem *menuItem)
         {
             SimpleAudioEngine::sharedEngine()->playEffect("button_press.wav");
             //CCScene *pScene = LevelScene::scene();
-            CCScene *pScene = SecondLevelView::scene();
+            CCScene *pScene = FirstLevelView::scene();
             CCDirector::sharedDirector()->replaceScene(CCTransitionCrossFade::create(1, pScene));
             break;
         }
