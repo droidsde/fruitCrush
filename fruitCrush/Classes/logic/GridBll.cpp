@@ -1107,6 +1107,11 @@ void GridBll::_matchDone()
     if (_haveMoreMatchCheck()) {
         this->getBox()->setLock(false);
     }
+    else
+    {// have no more match
+        reInitGrid();
+        this->getBox()->setLock(false);
+    }
 }
 
 bool GridBll::_haveMoreMatchCheck()
