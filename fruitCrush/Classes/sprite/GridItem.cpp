@@ -11,3 +11,14 @@ GridItem::~GridItem()
 {
     setItemBG(NULL);
 }
+
+bool GridItem::init()
+{
+    bool bRet = false;
+    do {
+        setItemAct(true);
+        bRet = true;
+    } while (0);
+    
+    return bRet;
+}

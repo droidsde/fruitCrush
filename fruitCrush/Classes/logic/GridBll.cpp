@@ -195,12 +195,13 @@ void GridBll::_checkInit()
             
             int tileValue = (arc4random()%(this->getScoreCenter()->getColorNum())+1);
             //CCString* name = CCString::createWithFormat("q%d.png",tileValue);
-            CCSprite *fruitbg = CCSprite::createWithSpriteFrameName(FruitCrush::shareSingleton()->getItemString(tileValue));
+            CCSprite *fruitbg = CCSprite::createWithSpriteFrameName(FruitCrush::shareSingleton()->getItemString(tileValue, tile->getFruitItem()->getItemClass()));
             fruitbg->setScale(kTileScaleFactor);
             // add new sprite
             tile->getFruitItem()->setItemBG(fruitbg);
             tile->getFruitItem()->setItemValue(tileValue);
             tile->getFruitItem()->getItemBG()->setPosition(curPos);
+            //tile->getFruitItem()->setItemClass(kcinormal);
             m_FruitBatch->addChild(tile->getFruitItem()->getItemBG());
         }
         tiles->removeAllObjects();
@@ -1506,10 +1507,13 @@ void GridBll::reInitGrid()
                 continue;
             }
             
+            // remove item background from batch node
+            m_FruitBatch->removeChild(tile->getFruitItem()->getItemBG(), true);
+            
             tile->getFruitItem()->setItemBG(NULL);
-            tile->getFruitItem()->setItemClass(kcinormal);
+            //tile->getFruitItem()->setItemClass(kcinormal);
             tile->getFruitItem()->setItemValue(ktNothing);
-            tile->setFruitItem(NULL);
+            //tile->setFruitItem(NULL);
         }
     }
     
@@ -1524,8 +1528,8 @@ void GridBll::reInitGrid()
                 continue;
             }
             
-            GridItem *item = GridItem::create();
-            tile->setFruitItem(item);
+            //GridItem *item = GridItem::create();
+            //tile->setFruitItem(item);
             if (!tile->getCanPutFruit()) {
                 tile->getFruitItem()->setItemValue(ktNothing);
                 continue;
@@ -1533,12 +1537,14 @@ void GridBll::reInitGrid()
             
             tileValue = (arc4random()%(this->getScoreCenter()->getColorNum())+1);
             //CCString* name = CCString::createWithFormat("q%d.png",tileValue);
-            CCSprite *fruitbg = CCSprite::createWithSpriteFrameName(FruitCrush::shareSingleton()->getItemString(tileValue));
+            CCSprite *fruitbg = CCSprite::createWithSpriteFrameName(FruitCrush::shareSingleton()->getItemString(tileValue, tile->getFruitItem()->getItemClass()));
             fruitbg->setScale(kTileScaleFactor);
             fruitbg->setPosition(ccp(kHXStart + td * kTileWidth + kTileWidth/2, kHYStart + tr * kTileWidth+kTileWidth/2));
             
             tile->getFruitItem()->setItemValue(tileValue);
             tile->getFruitItem()->setItemBG(fruitbg);
+            //tile->getFruitItem()->setItemClass(kcinormal);
+            tile->getFruitItem()->setItemAct(true);
             m_FruitBatch->addChild(tile->getFruitItem()->getItemBG());
         }
     }

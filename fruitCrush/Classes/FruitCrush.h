@@ -165,14 +165,13 @@ typedef enum {
 class FruitCrush : public cocos2d::CCObject
 {
 public:
-    
     static FruitCrush* shareSingleton(void);
     
     bool canPlayMap(int mapNo);
     void setMapCompleted(int mapNo, bool completed);
     CCSize getWinSize();
     const char* getItemString(int value) const;
-    
+    const char* getItemString(int value, ClassItemSprite itemClass) const;
 };
 
 #endif /* defined(__fruitCrush__FruitCrush__) */

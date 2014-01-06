@@ -19,6 +19,7 @@ GridTile::~GridTile()
 
 bool GridTile::init()
 {
+    
     return true;
 }
 

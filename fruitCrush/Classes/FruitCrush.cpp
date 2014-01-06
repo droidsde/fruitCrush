@@ -125,3 +125,41 @@ const char* FruitCrush::getItemString(int value) const
     }
     return NULL;
 }
+
+const char* FruitCrush::getItemString(int value, ClassItemSprite itemClass) const
+{
+    switch (itemClass) {
+        case kcinormal:
+        {
+            return this->getItemString(value);
+            break;
+        }
+        case kciHor:
+        {
+            CCString* type = CCString::createWithFormat("%u%u", value, 1);
+            return this->getItemString(type->intValue());
+            break;
+        }
+        case kciVec:
+        {
+            CCString* type = CCString::createWithFormat("%u%u", value, 2);
+            return this->getItemString(type->intValue());
+            break;
+        }
+        case kciPop:
+        {
+            CCString* type = CCString::createWithFormat("%u%u", value, 3);
+            return this->getItemString(type->intValue());
+            break;
+        }
+        case kciBomb:
+        {
+            return this->getItemString(7);
+            break;
+        }
+        
+        default:
+            break;
+    }
+    return NULL;
+}

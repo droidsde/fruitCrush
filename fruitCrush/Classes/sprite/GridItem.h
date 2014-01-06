@@ -19,6 +19,7 @@ class GridItem : public CCNode
     CC_SYNTHESIZE(int, _itemValue, ItemValue);
     CC_SYNTHESIZE(bool, _itemAct, ItemAct); // 当前Item是否可活动
 public:
+    virtual bool init();
     CREATE_FUNC(GridItem);
     virtual ~GridItem();
 };
